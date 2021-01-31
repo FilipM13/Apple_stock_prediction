@@ -58,7 +58,7 @@ print(f'accuracy: {round(ac*100, 2)} %.')
 
 
 
-#visualisation data
+#visualisation
 fig, ax = plt.subplots(dpi=200)
 x = range(len(data_v))
 #plot stock open price
