@@ -52,8 +52,8 @@ cm = confusion_matrix(y_test, y_pred)
 ac = accuracy_score(y_test, y_pred)
 #print results
 print(cm)
-print(f'Group 1 - correct: {cm[0][0]}, incorrect: {cm[0][1]}.')
-print(f'Group 1 - incorrect: {cm[1][0]}, correct: {cm[1][1]}.')
+for n, i in enumerate(cm):
+  print(f'Group {n} - correct: {i[n]}, incorrect: {sum(i)-i[n]}.')
 print(f'accuracy: {round(ac*100, 2)} %.')
 
 
