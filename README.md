@@ -6,7 +6,7 @@ Crypto currency is very unpredictable so I decided to use regular stock data.
 Apple was random choice.
 
 ## AIM
-In this project I wanted to focus on few goals:  
+In this project I focused on few goals:  
 - using machine learning  
 - comparing many ML models with accuracy score  
 - creating dependent variable based on independent variables  
