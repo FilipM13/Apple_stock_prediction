@@ -39,9 +39,9 @@ open_price_direction = [1,1,1,1,0,0,1,-1,-1,-1,-1]
 #### 4. Visualisation:  
 - Creating plot of downloaded data.  
 - Adding dependent variable (red, green and blue areas on graph):  
- - red - indicates where price is going down  
- - blue - indicates where price does not change  
- - green - indicates where price is going up
+- - red - indicates where price is going down  
+- - blue - indicates where price does not change  
+- - green - indicates where price is going up
 
 ## EVALUATION
 | Model Name             |   Best Accuracy   |
